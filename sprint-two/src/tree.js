@@ -28,7 +28,7 @@ treeMethods.contains = function(target){
     }
     if(node.children){
       for(var i = 0; i < node.children.length; i++){
-        return nodeChecker(node.children[i]);
+        nodeChecker(node.children[i]);
       }
     }
 
