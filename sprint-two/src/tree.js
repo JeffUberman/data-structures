@@ -42,27 +42,10 @@ treeMethods.contains = function(target){
 
 
 /*
- * Complexity: What is the time complexity of the above functions?
-----------
-var tree1 = Tree(1)
-
-{
-  value : value;
-  addChild : function(value){}
-  chidren: []
-}
-
-tree1.addChild('H')
-tree1.children[0].addChildren("I")
-
-contains -->
-
-//iterate over the array
-
-  //object at index's value
-
-  //does it's nested array have children
-     //if yes recurse
+Complexity:
+Tree -- O(1)
+.addChild -- O(1)
+.contains -- O(n^2)
 */
 
 
